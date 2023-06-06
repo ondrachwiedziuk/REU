@@ -1,0 +1,5 @@
+IndexOptions FancyIndexing SuppressHTMLPreamble XHTML FoldersFirst
+RemoveHandler cgi-script .pl .cgi .php .py
+AddType text/plain .pl .cgi .php .py
+
+AddDefaultCharset utf-8
