@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+    font-size: 2em !important;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.75em !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    hr.middle {
+        border-top:2px solid #ededed;
+        color:#ededed;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    hr.middle {
+        border-top:2px solid #444444;
+        color:#444444;
+    }
+}
+
+ul {
+    list-style-type: square;
+    word-break: break-all;
+}
+
+.MathJax_Display, .MJXc-display, .MathJax_SVG_Display {
+    overflow-y:hidden;
+    overflow-x: scroll;
+}

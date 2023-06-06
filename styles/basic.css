@@ -1,0 +1,91 @@
+body  {
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+@media (prefers-color-scheme: light) {
+    body  {
+        background-color: #EDEDED;
+        color: #171717;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body  {
+        background-color: #171717;
+        color: #EDEDED;
+    }
+}
+
+.top {
+    width: 100vw;
+    height: 70px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-image: url("background-thick.jpg");
+    background-size: cover;
+    background-color: #171717;
+    color: #EDEDED;
+}
+
+
+.inner {
+    padding: 5px;
+    font-size: 1.1em !important;
+    text-align: justify;
+}
+
+.left {
+    width: 120px;
+    height: 100%;
+    position: fixed;
+    top: 80px;
+    left: 0px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: #444444;
+    color: #EDEDED;
+    font-size: 1.1em !important;
+}
+
+.line {
+    width: 100vw;
+    height: 10px;
+    position: fixed;
+    top: 70px;
+    left: 0px;
+    background-color: #8B0000;
+}
+
+@media only screen and (max-width: 1000px) {
+    .inner {
+        margin-left: 10px;
+        margin-right: 10px;
+        position: relative;
+        margin-top: 90px;
+        margin-bottom: 20px;
+    }
+
+    .left {
+        visibility: hidden;
+    }
+}
+
+@media only screen and (min-width: 1001px) {
+    .top {
+        padding-left: 60px;
+    }
+
+    .inner {
+        margin: 0px;
+        left: 50%;
+        transform: translate(calc(-50% + 60px), 0);
+        position: absolute;
+        top: 80px;
+    }
+
+    .left {
+        visibility: visible;
+    }
+}

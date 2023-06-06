@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="cs">
+    <head>
+        <base href="./" target="_blank">
+        <script src="panel.js"></script>
+        <script>Head('REU')</script>
+    </head>
+
+
+    <body onresize="Margin()">
+        <div class="inner" id="inner">
+            <h2>
+                Division game
+            </h2>
+            <p>
+                Alice and Bob TODO
+            </p>
+
+
+            <hr class="middle">
+
+            <h2>
+                Photos
+            </h2>
+            <p>
+                Photos from my journey across the US.
+            </p>
+
+                <button class="button" onClick="ClickOn('https://chwiedziuk.cz/foto/index.html')">
+                    REU photos
+                </button>
+
+
+            <hr class="middle">
+
+            <h2>
+                Contact
+            </h2>
+            <ul>
+                <li>
+                    Mail:
+                    <button class="innerlink" onClick="location.href='mailto:ondra@chwiedziuk.cz'">
+                        ondra@chwiedziuk.cz
+                    </button>
+                </li>
+                <li>
+                    GitHub:
+                    <button class="innerlink" onClick="ClickOn('https://github.com/ondrachwiedziuk')">
+                        github.com/ondrachwiedziuk
+                    </button>
+                </li>
+                <li>
+                    LinkedIn:
+                    <button class="innerlink" onClick="ClickOn('https://www.linkedin.com/in/ond%C5%99ej-chwiedziuk-414b141b1/')">
+                        linkedin.com/in/ondřej-chwiedziuk/
+                    </button>
+                </li>
+            </ul>
+
+        </div>
+
+        <script>Panel('REU')</script>
+    </body>
+</html>
