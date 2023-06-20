@@ -20,6 +20,8 @@
 }
 
 .innerlink {
+    padding: 0px;
+    border: 0px;
     color: #8B0000;
     background: none;
     border: none;
