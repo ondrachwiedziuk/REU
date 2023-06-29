@@ -16,6 +16,13 @@
     }
 }
 
+.smallobr {
+    float: right;
+    width: 200px;
+    padding-left: 20px;
+}
+
+
 .fullobr {
     display: block;
     margin: auto;
