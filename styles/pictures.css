@@ -22,6 +22,11 @@
     padding-left: 20px;
 }
 
+.microb {
+    float: right;
+    height: 2em;
+    padding-left: 20px;
+}
 
 .fullobr {
     display: block;
